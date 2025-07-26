@@ -1,0 +1,72 @@
+CSS fundamentals 2								7:57 PM 10/5/2023
+
+<!---           									     -->                                                       
+
+Flow of HTML:
+
+	position: property that allows you to specify the position of an element.
+
+		static -
+		       - default setting
+		       - ignores Z-index
+
+		relative -
+			 - positions element relative to its default static position
+			 - those adjustments are made using top, right, bottom, and left
+				*note that these are offset properties, meaning top will move the element down from the top based on the value, right will move the element away from the right side (towards the left) based on the value.
+
+
+		absolute -
+			 - positions element relative to its parent element, and removes it from the flow of the html document.
+			 - It can be pinned to any part of the web page
+			 - same adjustments made with top, right, bottom, and left.
+
+		fixed -
+		      - keeps the element in the position on the page regardless of user scrolling
+		      - same adjustments made with top, right, bottom, left
+		      - The element will remain in view no matter what
+		      - often used for navigation bars on a web page
+
+		sticky - keeps an element in the document flow as the user scrolls
+		       - sticks to a specified position as the page is scroller further
+		       - you could use back to back sticky to give the impression of flipping through cards
+
+			
+	display: dictates if it can share horizontal space with other elements
+		
+		inline  - 
+			- box wraps tightly around elements.. takes up as little space as possible
+			- those boxes are arranged left to right, in the same line: the baseline of their text.
+			- length and width cannot be set
+
+		block - 
+		      - fill the entire width by default
+		      - width property can be set
+
+		inline-block - 
+			     - appears left to right like inline
+			     - however the height and width can be specified
+			     - images are defaulted to inline-block display
+
+		many more!
+
+		
+
+	float: for aligning an element to the left or right of the container
+			- used commonly for wrapping text around an image
+			- not for layout, better to use grid or flexbox
+			- floated elements must have their width specified
+
+	clear: for specification how elements should behave when they bump into eachother
+			
+    			left — the left side of the element will not touch any other element within the same containing element.
+   			right — the right side of the element will not touch any other element within the same containing element.
+    			both — neither side of the element will touch any other element within the same containing element.
+    			none — the element can touch either side.
+
+
+	z-index: specifies how far back or how far forward an element appears on the page when it overlaps other elements.
+		 depth of elements
+		 accepts integer 
+
+	

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="blogs, personal, progress, Man, men, hard work"
+    />
+    <meta
+      name="description"
+      content="Daily blogs updates from Asa V. Schaeffer, Full Stack Game Developer"
+    />
+    <title>Library</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,100"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="page">
+      <div class="container">
+        <div class="sticky_parent page h1">
+          <h1><a href="/index.html">Library</a></h1>
+        </div>
+        <div class="sticky_parent page p">
+          <p>
+            <a
+              target="_blank"
+              href="https://twitter.com/i/status/1232052780820463617"
+              >"Many are the strange chances of the world"</a
+            >
+          </p>
+        </div>
+      </div>
+    </header>
+    <nav class="page">
+      <!-- INCOMPLETE LINKS:
+          INTERACTIVERESUME
+          SHOWCASE
+          contact.html
+                                  -->
+      <div class="container" id="page_navigation">
+        <ul>
+          <a href="index.html"><li>Home</li></a>
+          <a href="SHOWCASE"><li>Showcase</li></a>
+          <a href="INTERACTIVE RESUME"><li>About Me</li></a>
+          <a href="contact.html"><li>Contact</li></a>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="page">
+      <section class="blog-posts">
+        <div class="container">
+          <h2>search function coming soon</h2>
+          <input type="radio" id="All" name="categories" value="All" checked />
+          <input type="radio" id="webdev" name="categories" value="webdev" />
+          <input type="radio" id="gamedev" name="categories" value="gamedev" />
+          <input type="radio" id="blog" name="categories" value="blog" />
+
+          <input
+            type="radio"
+            id="research"
+            name="categories"
+            value="research"
+          />
+          <input type="radio" id="art" name="categories" value="art" />
+          <input type="radio" id="ai" name="categories" value="ai" />
+
+          <ol class="filters">
+            <li>
+              <label for="All">All</label>
+            </li>
+            <li>
+              <label for="webdev">Web Dev</label>
+            </li>
+            <li>
+              <label for="gamedev">Game Dev</label>
+            </li>
+            <li>
+              <label for="research">Research</label>
+            </li>
+            <li>
+              <label for="blog">Blog</label>
+            </li>
+            <li>
+              <label for="art">Art</label>
+            </li>
+            <li>
+              <label for="ai">AI</label>
+            </li>
+          </ol>
+
+          <ol class="posts">
+            <li class="post" data-category="webdev gamedev blog art ai">
+              <article>
+                <figure>
+                  <a
+                    href="https://webdesign.tutsplus.com/tutorials/quick-tip-how-to-build-a-dead-simple-parallax-effect-with-css-javascript--cms-33061?_ga=2.146015156.1249101154.1555312171-2126893531.1553152868"
+                    target="_blank"
+                  >
+                    <img
+                      src="./library/images/thumbnails/ai-art-design-timeline-trunk-whirlpool/a_computer_generated_image_of_a_rock_formation_in_the_ocean.webp"
+                      alt="Serene ocean backdrop showcases a grand semi-circular arrangement of green rocky cliffs, adorned with spires, under a clear blue sky."
+                    />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">Web Dev</a>
+                      </li>
+                      <li>
+                        <a href="">Game Dev</a>
+                      </li>
+                      <li>
+                        <a href="">Blog</a>
+                      </li>
+                      <li>
+                        <a href="">Art</a>
+                      </li>
+                      <li>
+                        <a href="">AI</a>
+                      </li>
+                    </ol>
+                    <h3 class="post-title">
+                      <a
+                        href="./library/posts/ai-art-journey-stone-trunk-charybdis.html"
+                        target="_blank"
+                        >Making Concept Art with AI: Beanstalk and Charybdis
+                      </a>
+                    </h3>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="webdev blog">
+              <article>
+                <figure>
+                  <a
+                    href="./library/posts/web-dev-journey/web-dev-journey.html"
+                    target="_blank"
+                  >
+                    <img
+                      src="./library/posts/web-dev-journey/thumbnail.webp"
+                      alt="asa schaeffer sitting on a ledge with a boston red socks hat on"
+                    />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">Web Dev</a>
+                      </li>
+                      <li>
+                        <a href="">HTML</a>
+                      </li>
+                      <li>
+                        <a href="">CSS</a>
+                      </li>
+                      <li>
+                        <a href="">Blog</a>
+                      </li>
+                    </ol>
+                    <h3 class="post-title">
+                      <a
+                        href="./library/posts/web-dev-journey/web-dev-journey.html"
+                        target="_blank"
+                        >My Journey Learning Web Development in 2023
+                      </a>
+                    </h3>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="gamedev research">
+              <article>
+                <figure>
+                  <a
+                    href="./library/posts/jelly-jam/timer-mechanic_research.html"
+                    target="_blank"
+                  >
+                    <img
+                      src="./library/posts/jelly-jam/tomagotchi copy thing.webp"
+                      alt="some cute games"
+                    />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">Game Dev</a>
+                      </li>
+                      <li>
+                        <a href="">Research</a>
+                      </li>
+                    </ol>
+                    <h3 class="post-title">
+                      <a
+                        href="./library/posts/jelly-jam/timer-mechanic_research.html"
+                        target="_blank"
+                        >Informed Game Design Document: Idle Pet Game
+                      </a>
+                    </h3>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="gamedev research">
+              <article>
+                <figure>
+                  <a
+                    href="./library/posts/jelly-interactions-review/jelly-interactions-review.html"
+                    target="_blank"
+                  >
+                    <img
+                      src="./library/posts/jelly-interactions-review/skyjellies-testing-green-grass-block-man.webp"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">Game Dev</a>
+                      </li>
+                      <li>
+                        <a href="">Research</a>
+                      </li>
+                    </ol>
+                    <h3 class="post-title">
+                      <a
+                        href="./library/posts/jelly-interactions-review/jelly-interactions-review.html"
+                        target="_blank"
+                        >Jelly Interactions Review
+                      </a>
+                    </h3>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="blog">
+              <article>
+                <figure>
+                  <a
+                    href="./library/posts/autobiography/autogiography.html"
+                    target="_blank"
+                  >
+                    <img
+                      src="./library/posts/autobiography/young-boy-red-blue-spiked-hair.webp"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">Blog</a>
+                      </li>
+                    </ol>
+                    <h3 class="post-title">
+                      <a
+                        href="./library/posts/autobiography/autogiography.html"
+                        target="_blank"
+                        >Autobiography
+                      </a>
+                    </h3>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="webdev gamedev research">
+              <article>
+                <figure>
+                  <a
+                    href="./library/posts/what-is-informed-game-design/what-is-informed-game-design.html"
+                    target="_blank"
+                  >
+                    <img
+                      src="./library/posts/what-is-informed-game-design/chain_mail-knight-halberd-feather-helmet.webp"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">Web Dev</a>
+                      </li>
+                      <li>
+                        <a href="">Game Dev</a>
+                      </li>
+                      <li>
+                        <a href="">Research</a>
+                      </li>
+                    </ol>
+                    <h3 class="post-title">
+                      <a
+                        href="./library/posts/what-is-informed-game-design/what-is-informed-game-design.html"
+                        target="_blank"
+                        >What is Informed Game Design
+                      </a>
+                    </h3>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="webdev gamedev research">
+              <article>
+                <figure>
+                  <a
+                    href="./library/posts/what-is-full-stack-game-development/what-is-full-stack-game-dev.html"
+                    target="_blank"
+                  >
+                    <img
+                      src="./library/posts/what-is-full-stack-game-development/crazy-white-man-and-japanese-girl.webp"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">Web Dev</a>
+                      </li>
+                      <li>
+                        <a href="">Game Dev</a>
+                      </li>
+                      <li>
+                        <a href="">Research</a>
+                      </li>
+                    </ol>
+                    <h3 class="post-title">
+                      <a
+                        href="./library/posts/what-is-full-stack-game-development/what-is-full-stack-game-dev.html"
+                        target="_blank"
+                        >What is Full Stack Game Development?
+                      </a>
+                    </h3>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="TEMPLATE">
+              <article>
+                <figure>
+                  <a
+                    href="https://webdesign.tutsplus.com/tutorials/quick-tip-how-to-enhance-a-page-with-css-animations--cms-32100?_ga=2.3551667.267848227.1555345574-242901505.1471790948"
+                    target="_blank"
+                  >
+                    <img
+                      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/animations-pre.webp"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">TAGS</a>
+                      </li>
+                    </ol>
+                    <h3 class="post-title">
+                      <a
+                        href="https://webdesign.tutsplus.com/tutorials/quick-tip-how-to-enhance-a-page-with-css-animations--cms-32100?_ga=2.3551667.267848227.1555345574-242901505.1471790948"
+                        target="_blank"
+                        >TEMPLATE
+                      </a>
+                    </h3>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <article class="ankle">
+    <div class="container">
+      <h2>Stay Connected</h2>
+      <p>Join my newsletter to get my posts straight into your inbox.</p>
+      <a class="btn" href="mailto:newsletter@asaschaeffer.com">Ok!</a>
+    </div>
+  </article>
+
+  <footer>
+    <div class="container">
+      <ul>
+        <li><p>&copy; Eremus Interactive</p></li>
+        <li>
+          <p>
+            <a
+              target="_blank"
+              href="./legal/eremus-interactive-privacy-policy-2023.pdf"
+              >Legal</a
+            >
+          </p>
+        </li>
+        <li>
+          <p>
+            <a href="./unsubscribe.html">Unsubscribe</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <a href="./contact.html">Contact</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <a class="up-arrow" href="#top">&#8593;</a>
+          </p>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</html>

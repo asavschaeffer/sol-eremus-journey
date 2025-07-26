@@ -7,81 +7,143 @@
     <meta name="keywords" content="" />
     <meta
       name="description"
-      content="Daily updates, milestone projects, reviews and contact information for Asa V. Schaeffer, Full Stack Game Developer" />
+      content="Daily updates, milestone projects, reviews and contact information for Asa V. Schaeffer, Full Stack Game Developer"
+    />
 
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <header>
+    <nav>
       <!-- Runs across each of the pages of the website -->
-      <a href="index.html"
-        ><img
-          class="banner"
-          src="images/japan resume pic COLOR.webp"
-          alt="headshot of Asa V. Schaeffer wearing a blue suit"
-      /></a>
 
-      <h1>Asa V. Schaeffer Personal Website</h1>
+      <div class="banner">
+        <div>
+          <a class="banner-photo-link" href="index.html"
+            ><img
+              class="banner-photo"
+              src="./images/japan resume pic COLOR.webp"
+              alt="headshot of Asa V. Schaeffer wearing a blue suit"
+          /></a>
+        </div>
 
-      <h3>
-        Each day I am working to learn about every aspect of game development!
-      </h3>
-      <div class="insite">
-        <span><a href="Blog.html">Blog</a></span>
-        <span><a href="Projects.html">Projects</a></span>
-        <span><a href="Resume.html">Resume</a></span>
-        <span><a href="Reviews.html">Reviews</a></span>
-        <span><a href="Contact.html">Contact</a></span>
+        <a class="navigation-button-0" href="./index.html"
+          ><h1>Asa V. Schaeffer Personal Website</h1>
+        </a>
+        <a class="navigation-button-0" href=""
+          ><p>
+            Each day I am working to learn about every aspect of game
+            development!
+          </p>
+        </a>
       </div>
-    </header>
-    <br />
-    <!-- Title of this page-->
-    <h2>Today's progress</h2>
-    <button onclick="changeColor()">Repaint!</button>
-    <!-- JS test-->
-    <br />
-    <br />
-    <br />
-    <!-- figure out a better way to post the daily notes -->
-    <iframe
-      src="/asa schaeffer website v1/daily notes/today.txt"
-      style="height: 200px; width: 700px"
-      title="August 24"></iframe>
-    <br />
-    <a href="/asa schaeffer website v1/daily notes/today.txt"
-      ><img
-        class="button"
-        src="images/no copyright law in the universe is going to stop me.png"
-        alt="sonic looking cheerful"
-    /></a>
-    <a href="/asa schaeffer website v1/daily notes/today.txt">Download notes</a>
-    <br />
-    <a
-      class="twitter-timeline"
-      href="https://twitter.com/aceyplace"
-      data-tweet-limit="1"
-      ><!-- this code you took is broken, it just links the entire twitter page not the most recent tweet -->
-      Tweets by @aceyplace</a
-    >
-    <script
-      async
-      src="//platform.twitter.com/widgets.js"
-      charset="utf-8"></script>
-    <p></p>
+
+      <ul class="navigation">
+        <li class="navigation-button">
+          <span><a class="navigation-button" href="Blog.html">Blog</a> </span>
+        </li>
+        <li class="navigation-button">
+          <span
+            ><a class="navigation-button" href="Projects.html"
+              >Projects</a
+            ></span
+          >
+        </li>
+        <li class="navigation-button">
+          <span
+            ><a class="navigation-button" href="Resume.html">Resume</a>
+          </span>
+        </li>
+        <li class="navigation-button">
+          <span
+            ><a class="navigation-button" href="Reviews.html">Reviews</a>
+          </span>
+        </li>
+        <li class="navigation-button">
+          <span
+            ><a class="navigation-button" href="Contact.html">Contact</a>
+          </span>
+        </li>
+      </ul>
+    </nav>
+    <div>
+      <header>
+        <a class="navigation-button-2" href="index.html"
+          ><h2>Today's Progress</h2>
+        </a>
+      </header>
+
+      <section>
+        <ul>
+          <!--- notes/today's blog post   -->
+          <li class="blog-post">
+            <iframe
+              src="./daily notes/today.txt"
+              width="595px;"
+              height="368px;"
+            ></iframe>
+          </li>
+          <!---embedded twitter timeline -->
+          <li>
+            <a
+              class="twitter-timeline"
+              data-width="700"
+              data-height="1133"
+              data-theme="dark"
+              href="https://twitter.com/aceyplace?ref_src=twsrc%5Etfw"
+              >Tweets by aceyplace</a
+            >
+            <script
+              async
+              src="https://platform.twitter.com/widgets.js"
+              charset="utf-8"
+            ></script>
+          </li>
+        </ul>
+      </section>
+
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th scope="col">HTML</th>
+            <th scope="column">social media</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="col">Monday 8/28</th>
+            <td>6 hours</td>
+            <td>45~min</td>
+          </tr>
+          <tr>
+            <th scope="col">Tuesday 8/29</th>
+            <td rowspan="2">?</td>
+            <td rowspan="2">?</td>
+          </tr>
+          <tr>
+            <th scope="col">Wednesday 8/30</th>
+          </tr>
+          <tr>
+            <th scope="col">Thursday 8/24</th>
+            <td>6</td>
+            <td rowspan="2">1</td>
+          </tr>
+          <tr>
+            <th scope="col">Friday 8/25</th>
+            <td>10</td>
+          </tr>
+          <tr>
+            <th scope="col">Saturday 8/26</th>
+            <td>0</td>
+            <td>sim card day!</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <th>Total</th>
+          <td>28</td>
+          <td>always too much</td>
+        </tfoot>
+      </table>
+    </div>
   </body>
-  <!-- here is the JS test for the amusement button -->
-  <script>
-    function getRandomColor() {
-      let letters = "0123456789ABCDEF";
-      let color = "#";
-      for (let i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
-      }
-      return color;
-    }
-    function changeColor() {
-      let newColor = getRandomColor();
-      document.body.style.backgroundColor = newColor;
-    }
-  </script>
 </html>

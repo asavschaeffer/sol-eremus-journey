@@ -1,0 +1,34 @@
+August 29, Tuesday
+I am doing some good things today!
+
+	to do: 
+		buy detergents
+		visa application
+		laundry
+		HTML certification progress
+		work for Cacille
+
+
+Humanity is so impressive sometimes. The fact that there are these forums where 
+expert coders write flawless answers in a foreign language for free..
+
+
+
+	Semantic HTML 1.5:
+
+TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT1234567890abcdefghij
+
+"I’ve never seen nor used a single section tag so far, whereas div is definitely the preferred tag that you’ll probably end up using 99.99% of times.
+
+The use of section and other semantic tags is probably going to play an actual role when SEO ranking is something your blog, website or webapp thrives on.
+
+Just my 2 cents :)" - herebeandre
+
+https://discuss.codecademy.com/t/can-you-use-a-mix-of-semantic-and-non-semantic-html/482732/16?u=asas
+
+	<header> & <nav> In this example, we have the <h1> element "Navigation Links", and the <ul> element which contains the links. We wrap the whole thing with the <header> element, and just the links themselves with the <nav> element.
+
+	<div> This can be very useful during times when we need to do advanced styling, such as dividing up <p>, <span>, <img> etc. Think of it like parenthesis for math. It can't hurt to throw them in for organizational purposes, but when you could use a more descriptive bracket always do so. 
+
+
+

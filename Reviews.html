@@ -8,95 +8,62 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <a href="index.html"
-      ><img
-        class="banner"
-        src="images/japan resume pic COLOR.jpg"
-        alt="headshot of Asa V. Schaeffer wearing a blue suit"
-    /></a>
-    <h1>Asa V. Schaeffer Personal Website</h1>
-    <h3>
-      Each day I am working to learn about every aspect of game development!
-    </h3>
-    <div class="insite">
-      <span><a href="Blog.html">Blog</a></span>
-      <span><a href="Projects.html">Projects</a></span>
-      <span><a href="Resume.html">Resume</a></span>
-      <span><a href="Reviews.html">Reviews</a></span>
-      <span><a href="Contact.html">Contact</a></span>
+    <nav>
+      <!-- Runs across each of the pages of the website -->
+
+      <div class="banner">
+        <div>
+          <a class="banner-photo-link" href="index.html"
+            ><img
+              class="banner-photo"
+              src="./images/japan resume pic COLOR.webp"
+              alt="headshot of Asa V. Schaeffer wearing a blue suit"
+          /></a>
+        </div>
+
+        <a class="navigation-button-0" href="./index.html"
+          ><h1>Asa V. Schaeffer Personal Website</h1></a
+        >
+        <a class="navigation-button-0" href=""
+          ><p>
+            Each day I am working to learn about every aspect of game
+            development!
+          </p></a
+        >
+      </div>
+
+      <ul class="navigation">
+        <li class="navigation-button">
+          <span><a class="navigation-button" href="Blog.html">Blog</a></span>
+        </li>
+        <li class="navigation-button">
+          <span
+            ><a class="navigation-button" href="Projects.html"
+              >Projects</a
+            ></span
+          >
+        </li>
+        <li class="navigation-button">
+          <span
+            ><a class="navigation-button" href="Resume.html">Resume</a></span
+          >
+        </li>
+        <li class="navigation-button">
+          <span
+            ><a class="navigation-button" href="Reviews.html">Reviews</a></span
+          >
+        </li>
+        <li class="navigation-button">
+          <span
+            ><a class="navigation-button" href="Contact.html">Contact</a></span
+          >
+        </li>
+      </ul>
+    </nav>
+    <div>
+      <header>
+        <a class="navigation-button-2" href="index.html"><h2>Reviews</h2></a>
+      </header>
     </div>
-    <br />
-    <h2>Reviews</h2>
-    <br />
-    <!--ugly border -->
-    <div
-      style="
-        border: 2px solid #d5cc5a;
-        overflow: hidden;
-        margin: 15px auto;
-        max-width: 770px;
-      "
-    >
-      <!-- need to make another attempt at linking these well-->
-      <!-- current problems are: elements of tripadvisor blocking-->
-      <!--                       unable to use "_blank" to open in new tab-->
-      <iframe
-        scrolling="no"
-        src="https://www.tripadvisor.com/ShowUserReviews-g60750-d80227-r905318438-Marriott_Marquis_San_Diego_Marina-San_Diego_California.html"
-        style="
-          border: 0px none;
-          margin-left: 0px;
-          height: 655px;
-          margin-top: -166px;
-          width: 760px;
-        "
-      >
-      </iframe>
-    </div>
-    <br />
-    <div
-      style="
-        border: 2px solid #d5cc5a;
-        overflow: hidden;
-        margin: 15px auto;
-        max-width: 770px;
-      "
-    >
-      <iframe
-        scrolling="no"
-        src="https://www.tripadvisor.com/ShowUserReviews-g60750-d80227-r905136894-Marriott_Marquis_San_Diego_Marina-San_Diego_California.html"
-        style="
-          border: 0px none;
-          margin-left: 0px;
-          height: 655px;
-          margin-top: -166px;
-          width: 760px;
-        "
-      >
-      </iframe>
-    </div>
-    <br />
-    <div
-      style="
-        border: 2px solid #d5cc5a;
-        overflow: hidden;
-        margin: 15px auto;
-        max-width: 770px;
-      "
-    >
-      <iframe
-        scrolling="no"
-        src="https://www.tripadvisor.com/ShowUserReviews-g60750-d80138-r905009880-Four_Points_by_Sheraton_San_Diego_Downtown_Little_Italy-San_Diego_California.html"
-        style="
-          border: 0px none;
-          margin-left: 0px;
-          height: 610px;
-          margin-top: -166px;
-          width: 760px;
-        "
-      >
-      </iframe>
-    </div>
-    <br />
   </body>
 </html>

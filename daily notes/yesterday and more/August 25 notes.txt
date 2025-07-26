@@ -1,35 +1,24 @@
 August 25 notes
-<--------------------------------------------------------------------------->
+
 I woke up at 5:0 something and tried to avoid moving too much so my girlfriend could sleep more. She got up with some ridiculous burst of energy and convinced me to head with her on the train to the coffee shop near her work in the 38 C heat just to take the train back home to shower, shamba, and eat breakfast. I made it to the starbucks in town at around 11:00 and got an iced latte. I put one packet of sugar in it.
 
-I've decided I need to just go into web development, and since I       got the Codecademy pro half off subscription I'm just going balls 
-deep into the front-end web engineer 350 hour career certification 
-program.
+I've decided I need to just go into web development, and since I got the Codecademy pro half off subscription I'm just going balls deep into the front-end web engineer 350 hour career certification program.
 
 My reasoning is 1) I need a nice personal website.
 		2) I need a nice website for my game.
 		3) Web games are the best for recruitment.
 		4) Web dev is enmployjable.
 
-I can iteratively improve my personal website v0 from yesterday 
-with the stuff I learn in this certification program, and I will 
-keep my learning progress in these notes organized by day.
+I can iteratively improve my personal website v0 from yesterday with the stuff I learn in this certification program, and I will keep my learning progress in these notes organized by day.
 
 Lesson 1: How the internet works
 
 * How is data sent from one computer to another?
-		Data at a server requested with HTTP get are sent 
-		to browser, which renders the HTML structure, CSS 
-		formatting, and JS interactivity. When the browser 
-		uploads information like a username, a HTTP post 
-		request goes from the browser to the server.
+		Data at a server requested with HTTP get are sent to browser, 		which renders the HTML structure, CSS formatting, and JS 		interactivity. When the browser uploads information like a 		username, a HTTP post request goes from the browser to the 		server.
 
 * What is the relationship between a browser and a server?
-		the browser renders the data it "GET"s from the 
-		server, the server stores the data "POST"ed by the 
-		user.The relationship is in parallel, meaning 
-		multiple data can be sent at the same time in each 
-		direction
+		the browser renders the data it "GET"s from the server, the 		server stores the data "POST"ed by the user.The relationship 		is in parallel, meaning multiple data can be sent at the same 		time in each direction
+
 * How is code turned into the experience that users see in their 
   browsers?
 		HTML outlines the structure of the data, CSS 

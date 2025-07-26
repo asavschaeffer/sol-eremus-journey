@@ -16,94 +16,98 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <a href="index.html"
-      ><img
-        class="banner"
-        src="images/japan resume pic COLOR.jpg"
-        alt="headshot of Asa V. Schaeffer wearing a blue suit"
-    /></a>
-    <h1>Asa V. Schaeffer Personal Website</h1>
-    <h3>
-      Each day I am working to learn about every aspect of game development!
-    </h3>
-    <div class="insite">
-      <span><a href="Blog.html">Blog</a></span>
-      <span><a href="Projects.html">Projects</a></span>
-      <span><a href="Resume.html">Resume</a></span>
-      <span><a href="Reviews.html">Reviews</a></span>
-      <span><a href="Contact.html">Contact</a></span>
-    </div>
-    <br />
-    <!--title of this page -->
-    <header>
-      <h2>Blog</h2>
-    </header>
-    <br />
-    <!-- for now I am just linking text files for each blog post-->
-    <div>
-      <object
-        width="582"
-        height="1200"
-        type="text/plain"
-        data="/asa schaeffer website v1/daily notes/yesterday and more/August 28 notes.txt"
-      ></object>
-      <br />
-      <a
-        href="/asa schaeffer website v1/daily notes/yesterday and more/August 28 notes.txt"
-        ><img
-          class="button"
-          src="images/no copyright law in the universe is going to stop me.png"
-          alt="sonic looking cheerful"
-      /></a>
-      <a
-        href="/asa schaeffer website v1/daily notes/yesterday and more/August 28 notes.txt"
-        >Download notes</a
-      >
-    </div>
-    <div>
-      <object
-        width="582"
-        height="1200"
-        type="text/plain"
-        data="/asa schaeffer website v1/daily notes/yesterday and more/August 25 notes.txt"
-      ></object>
-      <br />
-      <a
-        href="/asa schaeffer website v1/daily notes/yesterday and more/August 25 notes.txt"
-        ><img
-          class="button"
-          src="images/no copyright law in the universe is going to stop me.png"
-          alt="sonic looking cheerful"
-      /></a>
-      <a
-        href="/asa schaeffer website v1/daily notes/yesterday and more/August 25 notes.txt"
-        >Download notes</a
-      >
-    </div>
-    <!-- it would seem it could be good practice to write the blog posts in html-->
-    <div>
-      <object
-        width="582"
-        height="900"
-        type="text/plain"
-        data="/asa schaeffer website v1/daily notes/yesterday and more/August 24 notes.txt"
-      ></object>
-      <br />
-      <div>
-        <a
-          href="/asa schaeffer website v1/daily notes/yesterday and more/August 24 notes.txt"
-          ><img
-            class="button"
-            src="images/no copyright law in the universe is going to stop me.png"
-            alt="sonic looking cheerful"
-        /></a>
+    <nav>
+      <!-- Runs across each of the pages of the website -->
+
+      <div class="banner">
+        <div>
+          <a class="banner-photo-link" href="index.html"
+            ><img
+              class="banner-photo"
+              src="./images/japan resume pic COLOR.webp"
+              alt="headshot of Asa V. Schaeffer wearing a blue suit"
+          /></a>
+        </div>
+
+        <a class="navigation-button-0" href="./index.html"
+          ><h1>Asa V. Schaeffer Personal Website</h1></a
+        >
+        <a class="navigation-button-0" href=""
+          ><p>
+            Each day I am working to learn about every aspect of game
+            development!
+          </p></a
+        >
       </div>
-      <a
-        href="/asa schaeffer website v1/daily notes/yesterday and more/August 24 notes.txt"
-        >Download notes</a
-      >
+
+      <ul class="navigation">
+        <li class="navigation-button">
+          <span><a class="navigation-button" href="Blog.html">Blog</a></span>
+        </li>
+        <li class="navigation-button">
+          <span
+            ><a class="navigation-button" href="Projects.html"
+              >Projects</a
+            ></span
+          >
+        </li>
+        <li class="navigation-button">
+          <span
+            ><a class="navigation-button" href="Resume.html">Resume</a></span
+          >
+        </li>
+        <li class="navigation-button">
+          <span
+            ><a class="navigation-button" href="Reviews.html">Reviews</a></span
+          >
+        </li>
+        <li class="navigation-button">
+          <span
+            ><a class="navigation-button" href="Contact.html">Contact</a></span
+          >
+        </li>
+      </ul>
+    </nav>
+    <div>
+      <header>
+        <a class="navigation-button-2" href="index.html"><h2>Blog</h2></a>
+      </header>
     </div>
-    <!-- and if I like the notepad so much for notes I can post those as well in their current dessicated form-->
-    <br />
+    <section id="Blog-posts">
+      <ul>
+        <li class="blog-post">
+          <iframe
+            src="./daily notes/yesterday and more/August 29 notes.txt"
+            width="595"
+            height="368"
+            frameborder="0"
+          ></iframe>
+        </li>
+        <li class="blog-post">
+          <iframe
+            src="./daily notes/yesterday and more/August 28 notes.txt"
+            width="595"
+            height="368"
+            frameborder="0"
+          ></iframe>
+        </li>
+        <li class="blog-post">
+          <iframe
+            src="./daily notes/yesterday and more/August 25 notes.txt"
+            width="595"
+            height="368"
+            frameborder="0"
+          ></iframe>
+        </li>
+        <li class="blog-post">
+          <iframe
+            src="./daily notes/yesterday and more/August 24 notes.txt"
+            width="595"
+            height="368"
+            frameborder="0"
+          ></iframe>
+        </li>
+      </ul>
+    </section>
   </body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,143 +7,200 @@
     <meta name="keywords" content="" />
     <meta
       name="description"
-      content="Daily updates, milestone projects, reviews and contact information for Asa V. Schaeffer, Full Stack Game Developer"
+      content="research informed game design, Daily updates, milestone projects, reviews and contact information for Asa V. Schaeffer, Full Stack Game Developer"
     />
-
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,100"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Home</title>
   </head>
   <body>
-    <nav>
-      <!-- Runs across each of the pages of the website -->
-
-      <div class="banner">
+    <header class="header">
+      <div class="container">
         <div>
-          <a class="banner-photo-link" href="index.html"
-            ><img
-              class="banner-photo"
-              src="./images/japan resume pic COLOR.webp"
-              alt="headshot of Asa V. Schaeffer wearing a blue suit"
-          /></a>
+          <h1><a href="./blog.html?tag=Autobiography">Asa V. Schaeffer</a></h1>
         </div>
-
-        <a class="navigation-button-0" href="./index.html"
-          ><h1>Asa V. Schaeffer Personal Website</h1>
-        </a>
-        <a class="navigation-button-0" href=""
-          ><p>
-            Each day I am working to learn about every aspect of game
-            development!
-          </p>
-        </a>
-      </div>
-
-      <ul class="navigation">
-        <li class="navigation-button">
-          <span><a class="navigation-button" href="Blog.html">Blog</a> </span>
-        </li>
-        <li class="navigation-button">
-          <span
-            ><a class="navigation-button" href="Projects.html"
-              >Projects</a
-            ></span
-          >
-        </li>
-        <li class="navigation-button">
-          <span
-            ><a class="navigation-button" href="Resume.html">Resume</a>
-          </span>
-        </li>
-        <li class="navigation-button">
-          <span
-            ><a class="navigation-button" href="Reviews.html">Reviews</a>
-          </span>
-        </li>
-        <li class="navigation-button">
-          <span
-            ><a class="navigation-button" href="Contact.html">Contact</a>
-          </span>
-        </li>
-      </ul>
-    </nav>
-    <div>
-      <header>
-        <a class="navigation-button-2" href="index.html"
-          ><h2>Today's Progress</h2>
-        </a>
-      </header>
-
-      <section>
-        <ul>
-          <!--- notes/today's blog post   -->
-          <li class="blog-post">
-            <iframe
-              src="./daily notes/today.txt"
-              width="595px;"
-              height="368px;"
-            ></iframe>
-          </li>
-          <!---embedded twitter timeline -->
-          <li>
-            <a
-              class="twitter-timeline"
-              data-width="700"
-              data-height="1133"
-              data-theme="dark"
-              href="https://twitter.com/aceyplace?ref_src=twsrc%5Etfw"
-              >Tweets by aceyplace</a
+        <div>
+          <p>
+            <a target="_blank" href="./blog.html?tag=Full-Stack-Game-Dev"
+              >Full Stack Game Developer</a
             >
-            <script
-              async
-              src="https://platform.twitter.com/widgets.js"
-              charset="utf-8"
-            ></script>
+          </p>
+          <!-- <a class="btn" href="#">What's That?</a> -->
+        </div>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <div class="container">
+        <ul>
+          <a href="Blog.html"><li>Blog</li></a>
+          <a href="Projects.html"><li>Showcase</li></a>
+          <a href="Resume.html"><li>About</li></a>
+          <a href="Contact.html"><li>Contact</li></a>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="container">
+         <article class="home-message">
+              <div>
+                <img
+                  class="selfie"
+                  src="./content/visual/avatars/asa valentine schaeffer cropped avatar.webp"
+                />
+              </div>
+              <div>
+                <h2>
+                  <a class="in-paragraph-link" href="./blog.html#whats-is-idd"
+                    >Interactive Media</a
+                  >
+                </h2>
+                <p>The "gamer" is not what it used to be.</p>
+                <p>
+                  An entertainment activity that was once tied to a physical
+                  board with intentional pieces has been digitized with
+                  computers, and transfered to console, mobile, and into AR.
+                </p>
+                <p>
+                  Your grandfather plays gin-rummy, chess, and
+                  words-with-friends. Your little sister plays stardew valley
+                  and Minecraft on her iPad. Your boss plays candy crush on the
+                  subway to work. Hardcore gamers are now the minority of people
+                  who play games.
+                </p>
+                <p>
+                  The potential of engaging with media to increase receptivity
+                  is limitless. The ability for a game IP to create a massive
+                  culture around the story, visual & auditory media is greater
+                  than cable, netflix, the library.
+                </p>
+                <p>
+                  Companies across the board are realizing this. TikTok
+                  announced their objective of pivoting into a gaming platform.
+                  U.S. education is gamifying classwork.
+                </p>
+              </div>
+            </article>
+
+        <article class="home-message">
+          <div>
+            <img
+              class="selfie"
+              src="./content/visual/avatars/asa valentine schaeffer cropped avatar.webp"
+            />
+          </div>
+          <div>
+            <h2>
+              <a class="in-paragraph-link" href="./blog.html#whats-is-idd"
+                >Informed Design</a
+              >
+            </h2>
+            <p>
+              I am working to popularize creating games centered around
+              <a
+                class="in-paragraph-link"
+                href="Blog.html#blog?sort=recent?tag=game-research"
+                target="_blank"
+              >
+                the latest</a
+              >
+              and
+              <a
+                class="in-paragraph-link"
+                href="Blog.html#blog?sort=suggested?tag=game-research"
+                target="_blank"
+                >greatest findings
+              </a>
+              in human science.
+            </p>
+            <p>
+              By writing and reading
+              <a
+                class="in-paragraph-link"
+                href="./blog.html#what-is-idd"
+                target="_blank"
+                >Research Informed Game Design Documentation</a
+              >, we can increase enjoyment, player retention, health, and
+              profit.
+            </p>
+            <p>
+              <a
+                class="in-paragraph-link"
+                href="mailto:contact@asaschaeffer.com"
+                target="_blank"
+                >Lets work together</a
+              >
+              in combining interactive media and science and create a positive
+              future for humanity!
+            </p>
+          </div>
+        </article>
+
+        <!-- <article class="home-message">
+              <div>
+                <img
+                  class="selfie"
+                  src="./content/visual/avatars/asa valentine schaeffer cropped avatar.webp"
+                />
+              </div>
+              <div>
+                <h2>
+                  <a class="in-paragraph-link" href="./blog.html#whats-is-idd"
+                    >Intelligence in Development</a
+                  >
+                </h2>
+                <p>
+                  less than 10% of programmers are making software without
+                  chatGPT. AI art is taking over the concept field. writers are
+                  on strike to prevent tv and movies from being written using
+                  AI.
+                </p>
+                <p>
+                  the power of the solo indie developer is taken to the next
+                  level of potential in collaboration with AI.
+                </p>
+              </div>
+            </article> -->
+      </section>
+    </main>
+
+    <article class="ankle">
+      <div class="container">
+        <h2>Stay Connected</h2>
+        <p>Join my newsletter to get my posts straight into your inbox.</p>
+        <a class="btn" href="mailto:newsletter@asaschaeffer.com">Ok!</a>
+      </div>
+    </article>
+
+    <footer>
+      <div class="container">
+        <ul>
+          <li><p>&copy; Eremus Interactive</p></li>
+          <li>
+            <p>
+              <a
+                target="_blank"
+                href="./legal/eremus-interactive-privacy-policy-2023.pdf"
+                >Privacy Policy</a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <a
+                target="_blank"
+                href="./legal/eremus-interactive-terms-of-service-2023.pdf"
+                >Terms of Service</a
+              >
+            </p>
           </li>
         </ul>
-      </section>
-
-      <table>
-        <thead>
-          <tr>
-            <th></th>
-            <th scope="col">HTML</th>
-            <th scope="column">social media</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="col">Monday 8/28</th>
-            <td>6 hours</td>
-            <td>45~min</td>
-          </tr>
-          <tr>
-            <th scope="col">Tuesday 8/29</th>
-            <td rowspan="2">?</td>
-            <td rowspan="2">?</td>
-          </tr>
-          <tr>
-            <th scope="col">Wednesday 8/30</th>
-          </tr>
-          <tr>
-            <th scope="col">Thursday 8/24</th>
-            <td>6</td>
-            <td rowspan="2">1</td>
-          </tr>
-          <tr>
-            <th scope="col">Friday 8/25</th>
-            <td>10</td>
-          </tr>
-          <tr>
-            <th scope="col">Saturday 8/26</th>
-            <td>0</td>
-            <td>sim card day!</td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <th>Total</th>
-          <td>28</td>
-          <td>always too much</td>
-        </tfoot>
-      </table>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>

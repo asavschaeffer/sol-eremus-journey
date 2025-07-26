@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Blog, personal, progress, Man, men, hard work"
+    />
+    <meta
+      name="description"
+      content="Daily blog updates from Asa V. Schaeffer, Full Stack Game Developer"
+    />
+    <title>Blog</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,100"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="header_subpage">
+      <div class="container">
+        <h1><a href="./index.html">Blog</a></h1>
+        <p>
+          <a
+            target="_blank"
+            href="https://twitter.com/i/status/1232052780820463617"
+            >"Many are the strange chances of the world"</a
+          >
+        </p>
+      </div>
+    </header>
+
+    <nav class="nav_subpage">
+      <div class="container">
+        <ul>
+          <a href="./index.html"><li>Home</li></a>
+          <a href="projects.html"><li>Showcase</li></a>
+          <a href="resume"><li>About</li></a>
+          <a href="contact"><li>Contact</li></a>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="subpage-organization">
+      <section class="container">
+        <h2><em>todo Current Sort Mode Here: todo current tags,</em></h2>
+        <div>
+          <p><em>todo Total posts: 4</em></p>
+          <ul>
+            <a href="./blog?tab=Newest"><li>Newest</li></a>
+            <a href="./blog?tab=Newest"><li>Suggested</li></a>
+            <a href="./blog?tab=Active"><li>Active</li></a>
+            <a href="./blog?tab=Newest"><li>Obtested</li></a>
+          </ul>
+        </div>
+      </section>
+    </nav>
+
+    <main>
+        <div class="bg-pillar">
+          <section class="container">
+            <article>
+                <header><h3>Making art with AI</h3></header>
+                <p>This article is going to be a walk through of the process I used to make 
+                  the pillar base portion of the art for this website.
+                </p>
+                <h4>Inspect: ankle??!</h4>
+                <p>Because of the visual theme of the website being this "jack and the beanstalk"
+                  type design, I had some challenges blending the bottom and the top with a trunk of variable length. 
+                  To resolve that I used some clouds and water to cover the places where the top and the base 
+                  would meet the trunk, which makes 5 vertical overlapping parts.</p>
+                  <p>Maybe it is too much information, but if you inspect any page, you can see that the 5 parts are named
+                    header, neck, body, leg, ankle, and footer.
+                    The portion that sits above the footer would be the ankle, which is blended into the body using the leg.
+                    The body is blended into the header using the neck, which sits just below the navigation links.
+                  </p>
+                  <p>For me it is super helpful to keep things organized if there is a mapping of the idea onto another concept, almost like an analogy.</p>
+                  <h4></h4>
+            </article>
+          </section>
+        </div>
+      </section>
+      <article class="leg">
+        <div class="container">
+          <h2>Stay Connected</h2>
+          <p>Join my newsletter to get my posts straight into your inbox.</p>
+          <a class="btn" href="mailto:newsletter@asaschaeffer.com">Ok!</a>
+        </div>
+    </main>
+    <footer>
+      <div class="container">
+        <ul>
+          <li><p>&copy; Eremus Interactive</p></li>
+          <li>
+            <p>
+              <a
+                target="_blank"
+                href="./legal/eremus-interactive-privacy-policy-2023.pdf"
+                >Privacy Policy</a
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              <a
+                target="_blank"
+                href="./legal/eremus-interactive-terms-of-service-2023.pdf"
+                >Terms of Service</a
+              >
+            </p>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

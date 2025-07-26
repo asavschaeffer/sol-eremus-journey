@@ -1,0 +1,42 @@
+								,Wednesday
+
+		I am doing some good things today!
+
+to do: 
+	Jelly Interaction
+	visa application
+	HTML certification progress
+	work for Cacille
+
+
+
+
+	Yesterday I got distracted and ended up writing a 3,000 word review of
+	the currently finalized player-jelly interactions for "Sky Jellies" 
+	About half way through spending all day on a task that shouldn't have 
+	taken all day because Microsoft Word couldn't satisfy my formatting and 
+	structural desires for the document, I came to the realization that
+	I could just start writing my Word documents using HTML and CSS. 
+
+	The problems with Word are as follows: 
+		- Headings/styles are nightmarish to customize and apply, 
+		  especially trying to use them in combination with lists 
+		- lists in general holy shit, if I didnt know (shift)+(tab)
+		  reduces list indentation level..
+		- footnotes do not cooperate with page break in the worst way
+		- autosave requires microsoft account HAHA
+		- the citation system
+		- the image embedding where you want it to experience
+		- you can actually link to web files, places in the document,
+		  new documents, and email addresses using Word. However, HTML
+		  is still better because you can make anything into a link AND
+		  its just a minor complaint but it is also so damn strange but 
+		  the UI once you open the Insert Hyperlink menu actually uses
+		  icons from Microsoft 2007.
+	
+	Not only can I make lists very comfortably and style them using HTML 
+	just after studying for a few days, but I can see that using class="" 
+	and css stylesheets I won't need to go to style/headings every time and 
+	highlight shit to style it. In the end I can save the rendered web page 
+	as a pdf and the only thing I'm worried about is the integrity of the 
+	links once I save it as a PDF but there should be a way.

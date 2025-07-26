@@ -1,0 +1,40 @@
+August 24 notes
+
+from: https://trello.com/c/hnSQsHz2/499-20-year-industry-veteran-describes-the-ideal-way-to-get-a-job-in-game-design
+
+Communication is the number one skill for a game designer.
+A game designer has to understand not simply what they are thinking and what they want to happen in the design but they also have to be able to listen and absorb what the team is saying, understand the problems that are being highlighted by their staff, come to acceptable solutions for the group etc.
+If you cant communicate as a designer you'd better be an solo indie dev
+
+you need to be able to hear what people are saying, talk, communicate with them in a way that they can understand what is and isnt important. A lot of the time even just getting your ideas across to people it needs to be said it needs the skill to articulate what needs to be said, and also the persistance to keep communicating it over and over.
+
+What kind of experienc edo you need for game design?
+You have to prove that you know how to make games.
+
+board games, paper prototypes, unity/unreal projects - anything that can communicate that "i can design games, I understand how to create fun, I understand player psychology"
+
+starting now is amazing!
+school is crazy expensive
+work with a team, stuff on discord, mod teams
+make things within someone elses toolset first,
+3 tools that are great today: build a minecraft server, roblox, and watch how people interact with your material
+the old school route of pen and paper games peels back a lot of the visuals and exposes the rule set
+
+convince people you are trustworthy enough to be in charge of a chunk of the game, thats super expensive and risky for someone.
+
+next I watched: https://www.youtube.com/watch?v=qz0aGYrrlhU
+I downloaded VScode and learned the basics for file organization, naming conventions, website metadata, search engine optimization, brief text and image style with CSS, purpose of different headings, absolute and relative links to websites, section jump links within the webpage, download links, and mailto links.
+
+From what I learned in the hour video I am now going to attempt v0 of my "portfolio website" which is actually more like my own blog.
+Learning code is all about practice and not getting lost in following tutorials so I'll spend at least equal time watching videos and coding. So that means i've got an hour to make this website with just html.
+
+At 10:14 now and Ive made the website with my picture that links back to the index page, a main heading, a subheading, 5 links to pages.
+The main page has my most recent tweet, and a scrollable version of this note and a download link for it.
+I spent a lot of time figuring out how to frame the tripadvisor references I worked so hard for as a valet. At the moment they are iframed within div parameters and the links work, but they do not open in a new tab, instead they open inside the iframe and just mess it all up.
+
+I'm pretty sure staba closes at 10:30 here so I guess I'll head out.
+
+
+  
+
+

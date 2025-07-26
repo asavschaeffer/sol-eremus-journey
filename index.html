@@ -1,23 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My first web page</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="" />
+    <meta
+      name="description"
+      content="Daily updates, milestone projects, reviews and contact information for Asa V. Schaeffer, Full Stack Game Developer"
+    />
+
     <style>
-      img {
+      .banner {
         width: 100px;
         border-radius: 5px;
         float: left;
         margin-right: 10px;
       }
+      .twitter-timeline {
+        float: none;
+        width: 600px;
+        height: 300px;
+        overflow: hidden;
+      }
+      .button {
+        height: 40px;
+        width: calc(height x 1.6);
+        border-radius: 10px;
 
-      .username {
-        font-weight: bold;
+        margin-right: 10px;
       }
     </style>
   </head>
   <body>
-    <img src="images/zoidbergbless.gif" alt="image render error" />
-    <p class="username">@aceyplacey</p>
-    <p>Iori is cool!!!</p>
+    <a href="index.html"
+      ><img
+        class="banner"
+        src="images/japan resume pic COLOR.jpg"
+        alt="headshot of Asa V. Schaeffer wearing a blue suit"
+    /></a>
+
+    <h1>Asa V. Schaeffer Personal Website</h1>
+
+    <h3>
+      Each day I am working to learn about every aspect of game development!
+    </h3>
+    <a href="Blog.html">Blog</a>
+    <a href="Projects.html">Projects</a>
+    <a href="Resume.html">Resume</a>
+    <a href="Reviews.html">Reviews</a>
+    <a href="Contact.html">Contact</a>
+    <br />
+    <h2>Today's progress</h2>
+    <br />
+    <iframe
+      src="/code with mosh tutorial/asa schaeffer website v0/daily notes/August 24 notes.txt"
+      style="height: 200px; width: 700px"
+      title="August 24"
+    ></iframe>
+    <br />
+    <a
+      href="/code with mosh tutorial/asa schaeffer website v0/daily notes/August 24 notes.txt"
+      ><img
+        class="button"
+        src="images/no copyright law in the universe is going to stop me.png"
+        alt="sonic looking cheerful"
+    /></a>
+    <a
+      href="/code with mosh tutorial/asa schaeffer website v0/daily notes/August 24 notes.txt"
+      >Download notes</a
+    >
+    <br />
+    <a
+      class="twitter-timeline"
+      href="https://twitter.com/aceyplace"
+      data-tweet-limit="1"
+    >
+      Tweets by @aceyplace</a
+    >
+    <script
+      async
+      src="//platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+    <p></p>
   </body>
 </html>

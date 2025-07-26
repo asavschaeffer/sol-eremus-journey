@@ -1,0 +1,23 @@
+# Design files
+*.xcf
+*.psd
+*.ai
+
+# Databases  
+*.accdb
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*~
+*.tmp
+
+# Large media (case-by-case review)
+*.mov
+*.mp4
+
+# Archive directories
+__MACOSX/

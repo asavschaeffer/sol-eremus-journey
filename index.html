@@ -10,72 +10,59 @@
       content="Daily updates, milestone projects, reviews and contact information for Asa V. Schaeffer, Full Stack Game Developer"
     />
 
-    <style>
-      .banner {
-        width: 100px;
-        border-radius: 5px;
-        float: left;
-        margin-right: 10px;
-      }
-      .twitter-timeline {
-        float: none;
-        width: 600px;
-        height: 300px;
-        overflow: hidden;
-      }
-      .button {
-        height: 40px;
-        width: calc(height x 1.6);
-        border-radius: 10px;
-
-        margin-right: 10px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <a href="index.html"
-      ><img
-        class="banner"
-        src="images/japan resume pic COLOR.jpg"
-        alt="headshot of Asa V. Schaeffer wearing a blue suit"
-    /></a>
+    <header>
+      <!-- Runs across each of the pages of the website -->
+      <a href="index.html"
+        ><img
+          class="banner"
+          src="images/japan resume pic COLOR.jpg"
+          alt="headshot of Asa V. Schaeffer wearing a blue suit"
+      /></a>
 
-    <h1>Asa V. Schaeffer Personal Website</h1>
+      <h1>Asa V. Schaeffer Personal Website</h1>
 
-    <h3>
-      Each day I am working to learn about every aspect of game development!
-    </h3>
-    <a href="Blog.html">Blog</a>
-    <a href="Projects.html">Projects</a>
-    <a href="Resume.html">Resume</a>
-    <a href="Reviews.html">Reviews</a>
-    <a href="Contact.html">Contact</a>
+      <h3>
+        Each day I am working to learn about every aspect of game development!
+      </h3>
+      <div class="insite">
+        <span><a href="Blog.html">Blog</a></span>
+        <span><a href="Projects.html">Projects</a></span>
+        <span><a href="Resume.html">Resume</a></span>
+        <span><a href="Reviews.html">Reviews</a></span>
+        <span><a href="Contact.html">Contact</a></span>
+      </div>
+    </header>
     <br />
+    <!-- Title of this page-->
     <h2>Today's progress</h2>
+    <button onclick="changeColor()">Repaint!</button>
+    <!-- JS test-->
     <br />
+    <br />
+    <br />
+    <!-- figure out a better way to post the daily notes -->
     <iframe
-      src="/code with mosh tutorial/asa schaeffer website v0/daily notes/August 24 notes.txt"
+      src="/asa schaeffer website v1/daily notes/today.txt"
       style="height: 200px; width: 700px"
       title="August 24"
     ></iframe>
     <br />
-    <a
-      href="/code with mosh tutorial/asa schaeffer website v0/daily notes/August 24 notes.txt"
+    <a href="/asa schaeffer website v1/daily notes/today.txt"
       ><img
         class="button"
         src="images/no copyright law in the universe is going to stop me.png"
         alt="sonic looking cheerful"
     /></a>
-    <a
-      href="/code with mosh tutorial/asa schaeffer website v0/daily notes/August 24 notes.txt"
-      >Download notes</a
-    >
+    <a href="/asa schaeffer website v1/daily notes/today.txt">Download notes</a>
     <br />
     <a
       class="twitter-timeline"
       href="https://twitter.com/aceyplace"
       data-tweet-limit="1"
-    >
+      ><!-- this code you took is broken, it just links the entire twitter page not the most recent tweet -->
       Tweets by @aceyplace</a
     >
     <script
@@ -85,4 +72,19 @@
     ></script>
     <p></p>
   </body>
+  <!-- here is the JS test for the amusement button -->
+  <script>
+    function getRandomColor() {
+      let letters = "0123456789ABCDEF";
+      let color = "#";
+      for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+      }
+      return color;
+    }
+    function changeColor() {
+      let newColor = getRandomColor();
+      document.body.style.backgroundColor = newColor;
+    }
+  </script>
 </html>
